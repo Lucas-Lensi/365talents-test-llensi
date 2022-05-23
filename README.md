@@ -14,8 +14,8 @@ A nice project with a nice description
 
 Create a .env file with:
 
-- PORT:YOUR-PORT
-- MONGODB_URI:YOUR-MONGODB-URI
+- PORT=YOUR-PORT
+- MONGODB_URI=YOUR-MONGODB-URI
 
 ## Running the project
 
