@@ -1,1 +1,1 @@
-import '../modules/calculator/calculator.model.test.js';
+import '../modules/company/company.service.test.js';

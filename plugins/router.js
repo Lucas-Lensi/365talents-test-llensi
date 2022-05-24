@@ -1,7 +1,7 @@
-import calculatorRoutes from '../modules/calculator/calculator.route.js';
+import companyRoutes from '../modules/company/company.route.js';
 
 export default async ({ app, cors }) => {
-  app.use('/calculator', cors(), calculatorRoutes);
+  app.use('/company', cors(), companyRoutes);
 
   app.use('*', (req, res) => {
     res

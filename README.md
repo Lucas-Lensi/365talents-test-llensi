@@ -6,8 +6,8 @@ A nice project with a nice description
 
 ## Install
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd PROJECT_TITLE
+    $ git clone git@github.com:Lucas-Lensi/365talents-test-llensi.git
+    $ cd 365talents-test-llensi
     $ npm install
 
 ## Configure app
@@ -15,7 +15,7 @@ A nice project with a nice description
 Create a .env file with:
 
 - PORT=YOUR-PORT
-- MONGODB_URI=YOUR-MONGODB-URI
+- SOCIETECOMTOKEN=YOUR-TOKEN-SOCIETECOM
 
 ## Running the project
 
