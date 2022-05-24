@@ -15,7 +15,7 @@ A nice project with a nice description
 Create a .env file with:
 
 - PORT=YOUR-PORT
-- SOCIETECOMTOKEN=YOUR-TOKEN-SOCIETECOM
+- SOCIETECOM_TOKEN=YOUR-TOKEN-SOCIETECOM
 
 ## Running the project
 

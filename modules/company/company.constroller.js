@@ -9,7 +9,7 @@ async function getCompanies(params) {
   if (await !checkParams(params))
     throw new Error('Invalid params');
 
-  let requestUri = await createUriString(params, process.env.SOCIETECOMTOKEN);
+  let requestUri = await createUriString(params, process.env.SOCIETECOM_TOKEN);
   if (!requestUri)
     throw new Error('Invalid URI');
 
