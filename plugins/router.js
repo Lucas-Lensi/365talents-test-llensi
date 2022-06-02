@@ -1,7 +1,7 @@
-import companyRoutes from '../modules/company/company.route.js';
+import scraperRoutes from '../modules/scraper/scraper.route.js';
 
 export default async ({ app, cors }) => {
-  app.use('/company', cors(), companyRoutes);
+  app.use('/scraper', cors(), scraperRoutes);
 
   app.use('*', (req, res) => {
     res

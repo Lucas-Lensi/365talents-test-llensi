@@ -1,1 +1,1 @@
-import '../modules/company/company.service.test.js';
+import '../modules/scraper/scraper.service.test.js';

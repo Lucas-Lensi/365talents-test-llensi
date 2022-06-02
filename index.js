@@ -7,12 +7,12 @@ const startServer = async () => {
 
   await plugins({ app });
 
-  app.listen(process.env.PORT, (err) => {
+  app.listen(process.env.PORT || 3000, (err) => {
     if (err) {
       console.log(err);
       return;
     }
-    console.log(`Server running on port : ${process.env.PORT}`);
+    console.log(`Server running on port : ${process.env.PORT || 3000}`);
   });
 };
 

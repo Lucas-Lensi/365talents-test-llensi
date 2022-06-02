@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js",
-    "test": "mocha test/index.js",
+    "test": "mocha test/index.js --timeout 20000 -r dotenv/config",
     "lint:fix": "eslint --fix ./*.js"
   },
   "author": "",
@@ -19,7 +19,8 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "puppeteer": "^14.1.1"
   },
   "devDependencies": {
     "chai": "^4.3.6",
