@@ -14,7 +14,6 @@ A nice project with a nice description
 
 Create a .env file with:
 
-- PORT=YOUR-PORT
 - LINKEDIN_EMAIL=YOUR-EMAIL-LINKEDIN
 - LINKEDIN_PASSWORD=YOUR-PASSWORD-LINKEDIN
 
