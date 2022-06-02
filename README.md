@@ -15,7 +15,8 @@ A nice project with a nice description
 Create a .env file with:
 
 - PORT=YOUR-PORT
-- SOCIETECOM_TOKEN=YOUR-TOKEN-SOCIETECOM
+- LINKEDIN_EMAIL=YOUR-EMAIL-LINKEDIN
+- LINKEDIN_PASSWORD=YOUR-PASSWORD-LINKEDIN
 
 ## Running the project
 
